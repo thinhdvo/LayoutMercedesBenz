@@ -1,0 +1,34 @@
+.cars{
+    background-color: $color-black;
+    
+    >h1{
+        color: $color-white;
+        font-size: $fs-4;
+        font-weight: $fw-300;
+        text-align: center;
+
+    }
+    .owl-carousel{
+        padding: 0 4%;
+        .owl-prev{
+            left: 20px;
+            top: 20px;
+            outline: none;
+        }
+        .owl-next{
+            @extend .owl-prev;
+            left: unset;
+            right: 20px;
+        }
+        .owl-prev, .owl-next{
+            position: absolute;
+            span{
+                font-size: 50px;
+                color: $color-white;
+                line-height: 0;
+            }
+        }
+        
+        
+    }
+}

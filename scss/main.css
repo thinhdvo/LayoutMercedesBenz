@@ -1,0 +1,399 @@
+.product__item-1 {
+  background-image: url(../img/xe-1.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.product__item-2 {
+  background-image: url(../img/xe-2.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.product__item-3 {
+  background-image: url(../img/xe-3.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.product__item-4 {
+  background-image: url(../img/xe-4.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.product__item-5 {
+  background-image: url(../img/xe-5.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.product__item-6 {
+  background-image: url(../img/xe-6.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel .carousel-control-next, .carousel-control-prev {
+  width: 7%;
+}
+
+.carousel-caption {
+  bottom: unset;
+  right: unset;
+  top: 20px;
+  left: 10%;
+}
+
+.carousel-caption button {
+  background-color: #202020;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #202020;
+}
+
+.carousel-caption button:hover {
+  background-color: white;
+  color: #202020;
+}
+
+.btn-black {
+  background-color: #202020;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #202020;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.btn-black:hover {
+  background-color: white;
+  color: #202020;
+}
+
+.btn-blue {
+  background-color: #00adef;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #00adef;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.btn-blue:hover {
+  background-color: white;
+  color: #202020;
+}
+
+.btn-white {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.btn-white:hover {
+  background-color: white;
+  color: black;
+}
+
+.my-carousel .carousel-inner .my-carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  color: white;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.my-carousel .carousel-item .carousel-caption {
+  text-align: left;
+}
+
+.my-carousel .carousel-item .carousel-caption .line {
+  width: 80px;
+  height: 3px;
+  background-color: white;
+}
+
+.my-carousel .carousel-item .carousel-caption h1 {
+  margin: 10px 0;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.navbar--black {
+  background-color: black;
+}
+
+.navbar--black .navbar-brand img {
+  width: 40px;
+}
+
+.navbar--black .navbar-brand span {
+  font-size: 20px;
+  margin-left: 10px;
+  border-right: 1px solid white;
+  padding-right: 10px;
+  color: white;
+}
+
+.navbar--black .nav-item {
+  margin-left: 10px;
+}
+
+.navbar--black .nav-item .nav-link {
+  color: #999;
+}
+
+.navbar--black .nav-item .nav-link:hover {
+  color: #00adef;
+}
+
+.product {
+  background-color: black;
+  margin-top: -200px;
+  padding-top: 200px;
+}
+
+.product > h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.product .nav-tabs {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: none;
+}
+
+.product .nav-tabs .nav-item {
+  background-color: #202020;
+}
+
+.product .nav-tabs .nav-item .nav-link {
+  color: #999;
+}
+
+.product .nav-tabs .nav-item .nav-link:hover {
+  color: #00adef;
+  border: none;
+}
+
+.product .nav-tabs .nav-item.show .nav-link, .product .nav-tabs .nav-link.active {
+  background-color: #202020;
+  border: none;
+  color: #00adef;
+}
+
+.product .product__item:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 4%;
+}
+
+.product .product__item .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.product .product__item .overlay h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.intro {
+  padding: 0 5%;
+}
+
+.intro .intro__title h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.intro p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.intro .intro__item-1, .intro .intro__item-2 {
+  background-image: url(../img/our-vehicle-intro-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.intro .intro__item-1 h2, .intro .intro__item-2 h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.intro .intro__item-1 p, .intro .intro__item-2 p {
+  font-size: 15px;
+  padding: 0 7%;
+}
+
+.intro .intro__item-1 .intro-1__content, .intro .intro__item-2 .intro-1__content {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+
+.intro .intro__item-2 {
+  background-image: url(../img/our-vehicles-intro-2.jpg);
+  text-align: left;
+}
+
+.intro .intro__item-2 p {
+  padding: 0;
+}
+
+.intro .intro__item-2 .intro-2__content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 40%;
+  left: 10%;
+}
+
+.cars {
+  background-color: black;
+}
+
+.cars > h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.cars .owl-carousel {
+  padding: 0 4%;
+}
+
+.cars .owl-carousel .owl-prev, .cars .owl-carousel .owl-next {
+  left: 20px;
+  top: 20px;
+  outline: none;
+}
+
+.cars .owl-carousel .owl-next {
+  left: unset;
+  right: 20px;
+}
+
+.cars .owl-carousel .owl-prev, .cars .owl-carousel .owl-next, .cars .owl-carousel .owl-next {
+  position: absolute;
+}
+
+.cars .owl-carousel .owl-prev span, .cars .owl-carousel .owl-next span, .cars .owl-carousel .owl-next span {
+  font-size: 50px;
+  color: white;
+  line-height: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .my-carousel .carousel-inner .my-carousel-caption {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .intro .intro__title {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my-carousel .carousel-inner .my-carousel-caption {
+    width: 70%;
+  }
+  .my-carousel .carousel-inner .my-carousel-caption h1 {
+    font-size: 40px;
+  }
+}
+
+.intro .intro__item-1, .intro .intro__item-2 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .intro {
+    padding: 0;
+  }
+  .intro .intro__title h1 {
+    font-size: 30px;
+  }
+  .intro .intro__item-1, .intro .intro__item-2 {
+    margin-bottom: 20px;
+  }
+  .intro .intro__item-2 {
+    background-image: url(../img/intro-2-xs.jpg);
+    text-align: center;
+  }
+  .intro .intro__item-2 .intro-2__content {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .product .nav-link {
+    padding: 5px;
+  }
+  .product .product__item .overlay h2 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

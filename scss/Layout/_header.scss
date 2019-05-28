@@ -1,0 +1,35 @@
+
+
+// .header{
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     z-index: 10;
+// }
+.navbar--black{
+    background-color: $color-black;
+    .navbar-brand{
+        img{
+            width: 40px;
+        }
+        span{
+            font-size: $fs-2;
+            margin-left: $mg-1;
+            border-right: 1px solid $color-white;
+            padding-right: $pd-2;
+            color: $color-white;
+        }
+    }
+    .nav-item{
+        margin-left: $mg-1;
+        .nav-link{
+            color: $color-grey;
+            &:hover{
+                color: $color-blue;
+            }
+        }
+
+    }
+}
+

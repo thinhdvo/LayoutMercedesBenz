@@ -1,0 +1,21 @@
+
+// CAROUSEL
+.my-carousel{
+    @media screen and (max-width: $mdScreen) {
+        .carousel-inner{
+            .my-carousel-caption{
+                width: 70%;
+            }
+        }
+    }
+}
+
+// INTRO
+.intro{
+    @media screen and (max-width: $mdScreen){
+        .intro__title{
+            text-align: center;
+            margin: $mg-2 0;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.intro{
+    padding: 0 5%;
+    .intro__title{
+        h1{
+            font-size: $fs-4;
+            font-weight: $fw-300;
+        }
+    }   p{
+            font-size: $fs-1;
+            font-weight: $fw-300;
+    }
+    .intro__item-1{
+        background-image: url(../img/our-vehicle-intro-1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        color: $color-white;
+        text-align: center;
+        position: relative;
+        h2{
+            font-size: $fs-3;
+            font-weight: $fw-300;
+        }
+        p{
+            font-size: $fs-1;
+            padding: 0 $pd-6;
+        }
+        .intro-1__content{
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+        }
+        
+    }
+    .intro__item-2{
+        @extend .intro__item-1;
+        background-image: url(../img/our-vehicles-intro-2.jpg);
+        text-align: left;
+        p{
+            padding: 0;
+        }
+        .intro-2__content{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40%;
+            left: 10%;
+        }
+    }
+}

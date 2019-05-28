@@ -1,0 +1,12 @@
+// ----- PRODUCT --------
+$mangHinhAnh: (1,xe-1) (2,xe-2) (3,xe-3) (4,xe-4) (5,xe-5) (6,xe-6);
+@each $stt,$hinhAnh in $mangHinhAnh {
+    .product__item-#{$stt}{
+        background-image: url(../img/#{$hinhAnh}.png);
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        animation-delay: 0.1s * $stt;
+    }
+}

@@ -1,0 +1,22 @@
+
+// CAROUSEL
+.my-carousel{
+    @media screen and (max-width: $smScreen) {
+        .carousel-inner{
+            .my-carousel-caption{
+                width: 70%;
+                h1{
+                    font-size: $fs-4;
+                }
+            }
+        }
+        
+    }
+}
+
+// INTRO
+.intro{
+    .intro__item-1{
+        margin-bottom: $mg-2;
+    }
+}

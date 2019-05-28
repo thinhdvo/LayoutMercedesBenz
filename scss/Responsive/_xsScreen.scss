@@ -1,0 +1,39 @@
+
+// INTRO
+.intro{
+    @media screen and (max-width: $xsScreen) {
+        padding: 0;
+        .intro__title{
+            h1{
+                font-size: $fs-3;
+            }
+        }
+        .intro__item-1{
+            margin-bottom: $mg-2;
+        }
+        .intro__item-2{
+            background-image: url(../img/intro-2-xs.jpg);
+            text-align: center;
+            .intro-2__content{
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+}
+
+// PRODUCT
+.product{
+    @media screen and (max-width: $xsScreen) {
+        .nav-link{
+            padding: $pd-1;
+        }
+        .product__item{
+            .overlay{
+                h2{
+                    font-size: $fs-2;
+                }
+            }
+        }
+    }
+}

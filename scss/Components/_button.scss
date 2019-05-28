@@ -1,0 +1,51 @@
+.carousel-caption button{
+    background-color: $color-dark;
+    color: $color-white;
+    font-size: $fs-2;
+    border: 1px solid $color-dark;
+    &:hover{
+        background-color: $color-white;
+        color: $color-dark;
+    }
+}
+
+.btn-black{
+    @include button($color-dark, $color-white, $color-dark, 5px, $pd-1 $pd-3, $color-white, $color-dark)
+    // background-color: $color-dark;
+    // color: $color-white;
+    // font-size: $fs-2;
+    // border: 2px solid $color-dark;
+    // padding: $pd-1 $pd-3;
+    // border-radius: 5px;
+    // &:hover{
+    //     background-color: $color-white;
+    //     color: $color-dark;
+    // }
+}
+.btn-blue{
+    @include button($color-blue, $color-white, $color-blue, 40px, $pd-1 $pd-3, $color-white, $color-dark)
+    // background-color: $color-blue;
+    // color: $color-white;
+    // font-size: $fs-2;
+    // border: 2px solid $color-blue;
+    // padding: $pd-1 $pd-3;
+    // border-radius: 40px;
+    // &:hover{
+    //     background-color: $color-white;
+    //     color: $color-dark;
+    // }
+}
+.btn-white{
+    @include button(transparent, $color-white, $color-white, 40px, $pd-1 $pd-3, $color-white, $color-black)
+    // background-color: transparent;
+    // border: 2px solid $color-white;
+    // color: $color-white;
+    // font-size: $fs-2;
+    // padding: $pd-1 $pd-3;
+    // border-radius: 40px;
+    // &:hover{
+    //     background-color: $color-white;
+    //     color: $color-black;
+    // }
+ }
+
